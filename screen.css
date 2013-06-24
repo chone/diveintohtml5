@@ -131,9 +131,10 @@ html, body {
 body {
   font: large/1.556 "Libertine", Palatino, "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
   word-spacing: 0.1em;
-  max-width: 960px;
+  padding: 0 10px;
   margin: 0 auto;
   padding-bottom: 2em;
+  overflow: hidden;
 }
 pre, kbd, samp, code, var {
   font: medium/1.75 Consolas, "Andale Mono", Monaco, "Liberation Mono", "Bitstream Vera Sans Mono", "DejaVu Sans Mono", monospace;
@@ -143,6 +144,11 @@ pre, kbd, samp, code, var {
 .a, .u, table.bc tbody td {
   font: 100%/1 "Arial Unicode MS", FreeSerif, OpenSymbol, "DejaVu Sans", sans-serif;
 }
+
+img {
+  max-width: 100%;
+}
+
 .baa {
   font: oblique 105% Constantia, Baskerville, Palatino, "Palatino Linotype", "URW Palladio L", serif;
 }
